@@ -22,7 +22,7 @@ jobs:
       - name: Install Dependencies
         run: |
           cd nodejs/hello
-          npm Install
+          npm install
           npm install pm2 -g
 
       - name: Run App with PM2

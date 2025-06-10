@@ -14,14 +14,14 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4
 
-      - name: Setup NodeJS
+      - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: "18.20.0"
 
       - name: Install Dependencies
         run: |
-          cd nodejs/HelloWorld
+          cd nodejs/hello
           npm Install
           npm install pm2 -g
 

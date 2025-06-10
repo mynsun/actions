@@ -1,4 +1,4 @@
-name: NodeJS HelloWorld App
+name: NodeJS HelloWorld APp
 run-name : ${{ github.workflow }}
 
 on:

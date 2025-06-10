@@ -1,5 +1,5 @@
 name: NodeJS HelloWorld APp
-run-name : ${{ github.workflow }}
+run-name: ${{ github.workflow }}
 
 on:
   push:
